@@ -1,5 +1,5 @@
 # CodingDojo-Java
-## Coursework completed in Coding Dojo's Java stack. Includes Java Fundamentals, Java OOP, Java on the Web and Java Spring.
+## Coursework completed in Coding Dojo's Java stack. Includes: Java Fundamentals | Java OOP | Java on the Web | Java Spring
 
 ### Technologies:
 - Java
