@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body {
+	background-color: #222; 
+  	color: #FFF; 
+	max-width: 1080px;
+	margin: auto;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.gameOver {
+	text-shadow: -2px 0 0 #fdff2a,
+    -4px 0 0 #df4a42,
+    2px 0 0 #91fcfe,
+    4px 0 0 #4405fc;
+}
+
+.blink_me {
+  -webkit-animation-name: toggle;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: toggle;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: toggle;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.blink_ninja {
+  -webkit-animation-name: toggle;
+  -webkit-animation-duration: .5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: toggle;
+  -moz-animation-duration: .5s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: toggle;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes toggle {
+         from {
+            visibility:hidden;
+         }
+     50% {
+            visibility:hidden;
+         }
+     to {
+            visibility:visible;
+      }
+ }
+@-webkit-keyframes toggle {
+         from {
+            visibility:hidden;
+         }
+     50% {
+            visibility:hidden;
+         }
+     to {
+            visibility:visible;
+      }
+ }
+
+.ninjaPic {
+	margin-left: 500px;
+	margin-top: 25px;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: 1px solid #ced7dd;
+	table-layout: fixed;
+	display: table;
+}
+tr {
+	border-bottom: 1px solid #ddd;
+	background-color: rgba(150, 212, 212, 0.2);
+}
+td {
+	padding: 16px;
+	display: table-cell;
+	max-width: 0px;
+	text-align: center;
+}
+.button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 10px;
+}
